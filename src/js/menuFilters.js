@@ -6,7 +6,7 @@ import { pagination } from './pagination';
 import ApiService from './fetchProdactsAPI';
 // import { resetQuery } from './searchFilms';
 const apiService = new ApiService();
-const KEY = '32432509d17cea42104bbb7507a382c7';
+const KEY = '8d41be39d2696eeff12b89d916a6c984';
 const api_key = `?api_key=${KEY}`;
 const BASE_URL = 'https://api.themoviedb.org/3';
 
@@ -45,7 +45,6 @@ function dataUpdate(data) {
 }
 
 let page = localStorage.getItem('page-value');
-
 
 // !це мій файл, закоментовувати цей рядок не буду тут вилазила помилка
 
